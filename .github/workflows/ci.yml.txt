@@ -1,0 +1,26 @@
+name: Java CI com Maven
+
+# O que dispara a automação: qualquer push na branch main ou master
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Baixar o código do repositório
+      uses: actions/checkout@v3
+    
+    - name: Configurar o Java 21
+      uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Rodar Testes e Compilar (Maven)
+      run: mvn -B package

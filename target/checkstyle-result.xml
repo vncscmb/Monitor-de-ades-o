@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\vinic\eclipse-workspace\monitor_adesao\src\main\java\apresentacao\Main.java">
+<error line="1" severity="error" message="O arquivo não termina com uma linha em branco." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="O arquivo package-info.java está faltando." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" column="1" severity="error" message="Classes utilitárias não deveriam ter construtores públicos ou com visibilidade de pacote." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="6" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="6" column="29" severity="error" message="O parâmetro args deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\Users\vinic\eclipse-workspace\monitor_adesao\src\main\java\negocio\GerenciadorMedicamentos.java">
+<error line="1" severity="error" message="O arquivo não termina com uma linha em branco." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="O arquivo package-info.java está faltando." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="7" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 83)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="13" column="27" severity="error" message="O parâmetro m deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="13" column="39" severity="error" message="Esperada a tag @param para &apos;m&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 85)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="17" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 81)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 101)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" column="5" severity="error" message="A classe &apos;GerenciadorMedicamentos&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;listarTodos&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;GerenciadorMedicamentos&apos; ser final, tornar o método &apos;listarTodos&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 84)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="28" column="5" severity="error" message="A classe &apos;GerenciadorMedicamentos&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;total&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;GerenciadorMedicamentos&apos; ser final, tornar o método &apos;total&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="28" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\vinic\eclipse-workspace\monitor_adesao\src\main\java\negocio\Medicamento.java">
+<error line="1" severity="error" message="O arquivo não termina com uma linha em branco." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="4" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="5" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="8" column="24" severity="error" message="O parâmetro nome deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="31" severity="error" message="&apos;nome&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="8" column="37" severity="error" message="O parâmetro dosagem deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="44" severity="error" message="&apos;dosagem&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="8" column="53" severity="error" message="O parâmetro horario deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="60" severity="error" message="&apos;horario&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="15" column="5" severity="error" message="A classe &apos;Medicamento&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;getNome&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;Medicamento&apos; ser final, tornar o método &apos;getNome&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="15" column="29" severity="error" message="O &apos;{&apos; na coluna 29 deveria ser seguido de uma quebra de linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="16" column="5" severity="error" message="A classe &apos;Medicamento&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;getDosagem&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;Medicamento&apos; ser final, tornar o método &apos;getDosagem&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="16" column="32" severity="error" message="O &apos;{&apos; na coluna 32 deveria ser seguido de uma quebra de linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="17" column="5" severity="error" message="A classe &apos;Medicamento&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;getHorario&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;Medicamento&apos; ser final, tornar o método &apos;getHorario&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="17" column="32" severity="error" message="O &apos;{&apos; na coluna 32 deveria ser seguido de uma quebra de linha." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="19" column="5" severity="error" message="A classe &apos;Medicamento&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;toString&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;Medicamento&apos; ser final, tornar o método &apos;toString&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="C:\Users\vinic\eclipse-workspace\monitor_adesao\src\main\java\visao\MenuPrincipal.java">
+<error line="1" severity="error" message="O arquivo não termina com uma linha em branco." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="O arquivo package-info.java está faltando." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="8" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" column="5" severity="error" message="A classe &apos;MenuPrincipal&apos; parece ter sido projetada para extensão (permite subclasses), mas o método &apos;exibir&apos; não tem um javadoc que explica como fazer isso de forma segura. Se a classe não é projetada para extensão, considere fazer a classe &apos;MenuPrincipal&apos; ser final, tornar o método &apos;exibir&apos; estático/final/abstrato/vazio ou adicione as anotações permitidas ao método." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="11" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>

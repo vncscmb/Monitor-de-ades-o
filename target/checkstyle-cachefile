@@ -1,0 +1,4 @@
+#Wed Apr 08 14:40:48 BRT 2026
+configuration*?=9C5FBC9486FF09A3B0D87D67B8DB6C6CC8933FA5
+module-resource*?\:checkstyle-suppressions.xml=1D39D032CC0E77B140EFBAE20E2A6009EE38A285
+module-resource*?\:checkstyle-xpath-suppressions.xml=2640E76FBEC6B7D26D7461AA72B13A0FBC22FAF3
