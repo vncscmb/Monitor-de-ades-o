@@ -1,5 +1,6 @@
 # 🏥 Monitor de Adesão a Medicamentos
-
+- 🌐 **Link de Deploy / Execução em Nuvem:** [Acesse o Codespace do Projeto](https://opulent-succotash-x5j6qg5r4jj364j.github.dev/)
+-*Nota: Para rodar a aplicação online, acesse o link acima, abra o terminal do Codespace e execute `mvn compile && mvn exec:java -Dexec.mainClass="apresentacao.Main"`*
 Este projeto é uma ferramenta de linha de comando (CLI) desenvolvida em **Java 21** para auxiliar no controle e monitoramento da adesão de pacientes a seus tratamentos medicamentosos.
 
 ## 🚀 Funcionalidades
